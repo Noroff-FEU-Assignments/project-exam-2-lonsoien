@@ -9,20 +9,22 @@ function Menu() {
         <>
         <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
+        <Navbar.Brand href="#home">Logo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">HJEM</Nav.Link>
-            
+          <Nav.Link to="/" className="nav-link">
+								Home
+							</Nav.Link>
+              
             <NavDropdown title="PRODUKTER" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Sykkelcontainer Folie</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Sykkelcontainer Trepanel</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Habitatpanel</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">Trerampe</NavDropdown.Item>
+              <NavDropdown.Item to="/sykkelcontainerfolie">Sykkelcontainer Folie</NavDropdown.Item>
+              <NavDropdown.Item to="/sykkelcontainertrepanel">Sykkelcontainer Trepanel</NavDropdown.Item>
+              <NavDropdown.Item to="/habitatpanel">Habitatpanel</NavDropdown.Item>
+              <NavDropdown.Item to="/trerampe">Trerampe</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">PROSJEKTER</Nav.Link>
-            <Nav.Link href="#link">OM OSS</Nav.Link>
+            <Nav.Link to="/projects" className="nav-link">PROSJEKTER</Nav.Link>
+            <Nav.Link to="/about" className="nav-link">OM OSS</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -32,3 +34,5 @@ function Menu() {
 }
 
 export default Menu 
+
+
