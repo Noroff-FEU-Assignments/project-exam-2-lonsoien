@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 function Menu() {
     return (
         <>
+        <Navbar sticky="top" />
         <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Logo</Navbar.Brand>
