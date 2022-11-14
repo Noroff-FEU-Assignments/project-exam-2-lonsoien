@@ -1,0 +1,27 @@
+// custom 
+
+$colour-input: #DFD4C0; 
+$colour-primary: #DFD4C0; 
+
+//bootstrap
+$theme-colours: (
+    "primary": $colour-primary,
+    "dark": $colour-primary,
+); 
+
+@import "~bootstrap/scss/bootstrap";
+
+// 
+
+button {
+    border-color: #DFD4C0; 
+    background-color: white;
+}
+
+.btn-send {
+    background-color: #DFD4C0;
+}
+
+h1,h2, h3 {
+    text-align: center; 
+}
