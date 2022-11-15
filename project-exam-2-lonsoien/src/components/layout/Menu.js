@@ -14,18 +14,18 @@ function Menu() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link href="#home" className="nav-link">
+          <Nav.Link href="/home" className="nav-link">
 								HOME
 							</Nav.Link>
               
             <NavDropdown title="PRODUKTER" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#sykkelcontainerfolie">Sykkelcontainer Folie</NavDropdown.Item>
-              <NavDropdown.Item href="#sykkelcontainertrepanel">Sykkelcontainer Trepanel</NavDropdown.Item>
-              <NavDropdown.Item href="#habitatpanel">Habitatpanel</NavDropdown.Item>
-              <NavDropdown.Item href="#trerampe">Trerampe</NavDropdown.Item>
+              <NavDropdown.Item href="/containerfolie">Sykkelcontainer Folie</NavDropdown.Item>
+              <NavDropdown.Item href="/containertrepanel">Sykkelcontainer Trepanel</NavDropdown.Item>
+              <NavDropdown.Item href="/habitatpanel">Habitatpanel</NavDropdown.Item>
+              <NavDropdown.Item href="/trerampe">Trerampe</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#projects" className="nav-link">PROSJEKTER</Nav.Link>
-            <Nav.Link href="#about" className="nav-link">OM OSS</Nav.Link>
+            <Nav.Link href="/projects" className="nav-link">PROSJEKTER</Nav.Link>
+            <Nav.Link href="/about" className="nav-link">OM OSS</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

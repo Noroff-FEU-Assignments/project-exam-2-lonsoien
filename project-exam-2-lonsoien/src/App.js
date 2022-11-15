@@ -1,10 +1,10 @@
 import './sass/style.scss';
 import Home from "./components/home/Home"; 
 import Menu from "./components/layout/Menu"; 
-import SykkelcontainerFolie from './components/products/SykkelcontainerFolie';
-import SykkelcontainerTrepanel from './components/products/SykkelcontainerTrepanel';
+import ContainerTrepanel from './components/products/ContainerTrepanel';
+import ContainerFolie from './components/products/ContainerFolie';
 import Habitatpanel from './components/products/Habitatpanel';
-import Trepanel from './components/products/Trerampe';
+import Trerampe from './components/products/Trerampe';
 import Projects from './components/projects/Projects';
 import About from './components/about/About';
 
@@ -19,11 +19,11 @@ function App() {
     <Menu />
     <Container>
       <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/sykkelcontainerfolie" element={<SykkelcontainerFolie />} />
-        <Route path="/sykkelcontainertrepanel" element={<SykkelcontainerTrepanel />} />
+        <Route path="/home" exact element={<Home />} />
+        <Route path="/containerfolie" element={<ContainerFolie />} />
+        <Route path="/containertrepanel" element={<ContainerTrepanel />} />
         <Route path="/habitatpanel" element={<Habitatpanel />} />
-        <Route path="/trepanel" element={<Trepanel />} />
+        <Route path="/trerampe" element={<Trerampe />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
       </Routes>

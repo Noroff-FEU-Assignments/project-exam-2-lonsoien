@@ -5,12 +5,13 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Heading from '../layout/Heading';
 
 
 function Home() {
     return (
         <>
-    <h1>ENVIRONMENT BOX</h1>
+    <Heading title="ENVIRONMENTBOX"/>
     <Carousel>
       <Carousel.Item>
         <img
