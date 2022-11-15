@@ -1,4 +1,5 @@
 import './sass/style.scss';
+import Admin from './components/admin/Admin';
 import Home from "./components/home/Home"; 
 import Menu from "./components/layout/Menu"; 
 import ContainerTrepanel from './components/products/ContainerTrepanel';
@@ -26,6 +27,7 @@ function App() {
         <Route path="/trerampe" element={<Trerampe />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </Container>
     </Router>
