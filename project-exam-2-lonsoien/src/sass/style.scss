@@ -3,6 +3,7 @@
 $colour-input: #DFD4C0; 
 $colour-primary: #DFD4C0; 
 
+
 //bootstrap
 $theme-colours: (
     "primary": $colour-primary,
@@ -13,15 +14,23 @@ $theme-colours: (
 
 // 
 
-button {
+.container-home {
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-om-oss {
+    width: 150px;
     border-color: #DFD4C0; 
-    background-color: white;
+    border-width: 3px;
 }
 
 .btn-send {
     background-color: #DFD4C0;
 }
 
-h1,h2, h3 {
-    text-align: center; 
+.container-logo {
+    text-align: center;
 }
+
+@import "./partials/typography"; 

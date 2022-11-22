@@ -15,6 +15,7 @@ import kringsjalogo from "../images/kringsjalogo.gif";
 import { Link } from 'react-router-dom';
 
 
+
 function Home() {
     return (
         <>
@@ -42,18 +43,14 @@ function Home() {
           </Carousel.Item> 
         </Carousel>
 
-        <Container>
-          <Row>
-            <Col>
-            <p>
+        <div className="container-home">
+            <p className="info-text">
             Vi er en landsdekkende leverandør av innovative løsninger for trygg sykkelparkering.
             Vi har som hensikt å skape flere trygge sykkelparkeringer i nærhet til bruker, og at 
             dette skal inspirere til økt bruk av sykkel som fremkomstmiddel.
             </p>
-            <button class="om-oss">OM OSS</button>
-            </Col>
-          </Row>
-        </Container>
+            <Button href="/About" variant="om-oss">OM OSS</Button>
+        </div>
 
         <Container>
           <Row>
@@ -61,7 +58,7 @@ function Home() {
             <img
               className="d-block w-100"
               src={sykkelcfolie}
-              alt="First slide"
+              alt="Sykkelcontainer med Trepanel"
             />
             </Col>
 
@@ -84,7 +81,7 @@ function Home() {
             <img
               className="d-block w-100"
               src={sykkelcfolie}
-              alt="First slide"
+              alt="Sykkelcontainer med Folie"
             />
             </Col>
 
@@ -92,7 +89,7 @@ function Home() {
             <img
               className="d-block w-100"
               src={sykkelcfolie}
-              alt="First slide"
+              alt="Habitatpanel"
             />
             </Col>
 
@@ -114,7 +111,7 @@ function Home() {
             <img
               className="d-block w-100"
               src={sykkelcfolie}
-              alt="First slide"
+              alt="Trerampe"
             />
             </Col>
           </Row>
@@ -162,11 +159,11 @@ function Home() {
         </Carousel>
         
         <h3>NOEN AV VÅRE KUNDER</h3>
-        <Container>
+        <Container class="logo">
           <Row xs={6}>
             <Col>
             <img
-              className="d-block w-100"
+            className="d-block w-100"
               src={oslologo}
               alt="Oslo-community Logo"
             />
