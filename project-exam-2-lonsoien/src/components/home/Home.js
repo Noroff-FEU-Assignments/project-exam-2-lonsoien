@@ -7,6 +7,8 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Heading from '../layout/Heading';
 import Headerimage from "../images/Headerimage.png"; 
+import sykkelcfolie from "../images/sykkelcfolie.png"; 
+import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -54,24 +56,30 @@ function Home() {
             <Col md={6}>
             <img
               className="d-block w-100"
-              src={Headerimage}
+              src={sykkelcfolie}
               alt="First slide"
             />
             </Col>
 
+            
             <Col md={6}>
+            <Link to="/ContainerTrepanel">
                 <h4>Sykkelcontainer med Trepanel</h4>
                 <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
+                </Link>
             </Col>
 
             <Col md={6}>
+            <Link to="/ContainerFolie">
             <h4>Sykkelcontainer med Folie</h4>
                 <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
+                </Link>
             </Col>
+
             <Col md={6}>
             <img
               className="d-block w-100"
-              src={Headerimage}
+              src={sykkelcfolie}
               alt="First slide"
             />
             </Col>
@@ -79,25 +87,29 @@ function Home() {
             <Col md={6}>
             <img
               className="d-block w-100"
-              src={Headerimage}
+              src={sykkelcfolie}
               alt="First slide"
             />
             </Col>
 
             <Col md={6}>
+            <Link to="/Habitatpanel">
             <h4>Habitatpanel</h4>
                 <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
+                </Link>
             </Col>
 
             <Col md={6}>
+            <Link to="/Trerampe">
             <h4>Trerampe</h4>
                 <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
+                </Link>
             </Col>
 
             <Col md={6}>
             <img
               className="d-block w-100"
-              src={Headerimage}
+              src={sykkelcfolie}
               alt="First slide"
             />
             </Col>
@@ -109,7 +121,7 @@ function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=First slide&bg=373940"
+              src={Headerimage}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -120,7 +132,7 @@ function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=Second slide&bg=282c34"
+              src={Headerimage}
               alt="Second slide"
             />
     
@@ -132,7 +144,7 @@ function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=Third slide&bg=20232a"
+              src={Headerimage}
               alt="Third slide"
             />
     
@@ -144,6 +156,7 @@ function Home() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        
         <h3>NOEN AV VÅRE KUNDER</h3>
         <Container>
           <Row>
