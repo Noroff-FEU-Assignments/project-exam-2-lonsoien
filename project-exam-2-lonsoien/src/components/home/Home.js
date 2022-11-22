@@ -8,6 +8,10 @@ import Form from 'react-bootstrap/Form';
 import Heading from '../layout/Heading';
 import Headerimage from "../images/Headerimage.png"; 
 import sykkelcfolie from "../images/sykkelcfolie.png"; 
+import oslologo from "../images/oslologo.jpeg"; 
+import Vikenlogo from "../images/Vikenlogo.png";
+import fafologo from "../images/fafologo.png";
+import kringsjalogo from "../images/kringsjalogo.gif"; 
 import { Link } from 'react-router-dom';
 
 
@@ -159,11 +163,36 @@ function Home() {
         
         <h3>NOEN AV VÅRE KUNDER</h3>
         <Container>
-          <Row>
-            <Col>Logo</Col>
-            <Col>Logo</Col>
-            <Col>Logo</Col>
-            <Col>Logo</Col>
+          <Row xs={6}>
+            <Col>
+            <img
+              className="d-block w-100"
+              src={oslologo}
+              alt="Oslo-community Logo"
+            />
+            </Col>
+            <Col>
+            <img
+              className="d-block w-100"
+              src={Vikenlogo}
+              alt="Viken-community Logo"
+            />
+            </Col>
+            <Col>
+            <img
+              className="d-block w-100"
+              src={fafologo}
+              alt="Fafo Logo"
+            />
+            </Col>
+
+            <Col>
+            <img
+              className="d-block w-100"
+              src={kringsjalogo}
+              alt="Kringsjå School Logo"
+            />
+            </Col>
           </Row>
         </Container>
     
