@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+import FormContact from '../layout/FormContact'; 
 import Heading from '../layout/Heading';
 import Headerimage from "../images/Headerimage.png"; 
 import sykkelcfolie from "../images/sykkelcfolie.png"; 
@@ -202,26 +202,7 @@ function Home() {
                 <p> Tønsberg</p>
             </Col>
             <Col md={6}>
-            <Form>
-          <Form.Group className="mb-3" controlId="formBasicName">
-            <Form.Control type="name" placeholder="Navn" />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Control type="email" placeholder="Email" />
-            <Form.Text className="text-muted">
-              We'll never share your email with anyone else.
-            </Form.Text>
-          </Form.Group>
-            <Form.Control
-              as="textarea"
-              placeholder="Leave a comment here"
-              style={{ height: '100px' }}
-            />
-          <Button variant="send" type="submit">
-            SEND
-            
-            </Button>
-        </Form>
+                <FormContact />
             </Col>
           </Row>
         </Container>
