@@ -30,12 +30,10 @@ function Home() {
               src={Headerimage}
               alt="Second slide"
             />
-    
             <Carousel.Caption>
               <h3>Skreddersydde systemer for trygg sykkelparkering</h3>
             </Carousel.Caption>
-          </Carousel.Item>
-          
+          </Carousel.Item> 
         </Carousel>
 
         <Container>
@@ -50,15 +48,63 @@ function Home() {
             </Col>
           </Row>
         </Container>
+
         <Container>
           <Row>
-            <Col md={6}>1 of 1</Col>
-            <Col md={6}>2 of 2</Col>
-            <Col md={6}>3 of 3</Col>
-            <Col md={6}>4 of 4</Col>
+            <Col md={6}>
+            <img
+              className="d-block w-100"
+              src={Headerimage}
+              alt="First slide"
+            />
+            </Col>
+
+            <Col md={6}>
+                <h4>Sykkelcontainer med Trepanel</h4>
+                <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
+            </Col>
+
+            <Col md={6}>
+            <h4>Sykkelcontainer med Folie</h4>
+                <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
+            </Col>
+            <Col md={6}>
+            <img
+              className="d-block w-100"
+              src={Headerimage}
+              alt="First slide"
+            />
+            </Col>
+
+            <Col md={6}>
+            <img
+              className="d-block w-100"
+              src={Headerimage}
+              alt="First slide"
+            />
+            </Col>
+
+            <Col md={6}>
+            <h4>Habitatpanel</h4>
+                <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
+            </Col>
+
+            <Col md={6}>
+            <h4>Trerampe</h4>
+                <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
+            </Col>
+
+            <Col md={6}>
+            <img
+              className="d-block w-100"
+              src={Headerimage}
+              alt="First slide"
+            />
+            </Col>
           </Row>
         </Container>
-    
+
+        <h3>Våre Prosjekter</h3>
         <Carousel>
           <Carousel.Item>
             <img
