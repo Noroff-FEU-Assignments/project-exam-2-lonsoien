@@ -23,6 +23,7 @@ function Menu() {
               <NavDropdown.Item href="/containertrepanel">Sykkelcontainer Trepanel</NavDropdown.Item>
               <NavDropdown.Item href="/habitatpanel">Habitatpanel</NavDropdown.Item>
               <NavDropdown.Item href="/trerampe">Trerampe</NavDropdown.Item>
+              <NavDropdown.Item href="/sykkelhotell">Sykkelhotell</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/projects" className="nav-link">PROSJEKTER</Nav.Link>
             <Nav.Link href="/about" className="nav-link">OM OSS</Nav.Link>

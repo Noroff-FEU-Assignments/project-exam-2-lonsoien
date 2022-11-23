@@ -1,12 +1,15 @@
 import React from 'react'; 
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+//import Container from 'react-bootstrap/Container';
+//import Col from 'react-bootstrap/Col';
+
 
 function FormContact() {
     return (
         <>
-        <Form>
-          <Form.Group className="mb-3" controlId="formBasicName">
+          <Form>
+           <Form.Group className="mb-3" controlId="formBasicName">
             <Form.Control type="name" placeholder="Navn" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -22,11 +25,11 @@ function FormContact() {
             />
           <Button variant="send" type="submit">
             SEND
-            
             </Button>
-        </Form>
+         </Form>
         </>
     );
 }
 
 export default FormContact
+

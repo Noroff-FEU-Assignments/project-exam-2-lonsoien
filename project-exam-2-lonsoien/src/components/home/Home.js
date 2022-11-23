@@ -6,13 +6,17 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import FormContact from '../layout/FormContact'; 
 import Heading from '../layout/Heading';
-import Headerimage from "../images/Headerimage.png"; 
-import sykkelcfolie from "../images/sykkelcfolie.png"; 
-import oslologo from "../images/oslologo.jpeg"; 
-import Vikenlogo from "../images/Vikenlogo.png";
-import fafologo from "../images/fafologo.png";
-import kringsjalogo from "../images/kringsjalogo.gif"; 
+import headerimage from "../images/headerimage.png"; 
+import Sykkelcontainer1 from '../images/products/Sykkelcontainer1.jpg';
+import Sykkelfolie3 from '../images/products/Sykkelfolie3.jpg'; 
+import habitatpanel1 from '../images/products/Habitattpanel1.jpg'; 
+import oslologo from "../images/logo/oslologo.jpeg"; 
+import Vikenlogo from "../images/logo/Vikenlogo.png";
+import fafologo from "../images/logo/fafologo.png";
+import kringsjalogo from "../images/logo/kringsjalogo.gif"; 
+
 import { Link } from 'react-router-dom';
+import Header from '../header/Header'; 
 
 
 
@@ -20,29 +24,7 @@ function Home() {
     return (
         <>
         <Heading title="ENVIRONMENTBOX"/>
-        <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={Headerimage}
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>Skreddersydde systemer for trygg sykkelparkering</h3>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={Headerimage}
-              alt="Second slide"
-            />
-            <Carousel.Caption>
-              <h3>Skreddersydde systemer for trygg sykkelparkering</h3>
-            </Carousel.Caption>
-          </Carousel.Item> 
-        </Carousel>
-
+        <Header />
         <div className="container-home">
             <p className="info-text">
             Vi er en landsdekkende leverandør av innovative løsninger for trygg sykkelparkering.
@@ -57,7 +39,7 @@ function Home() {
             <Col md={6}>
             <img
               className="d-block w-100"
-              src={sykkelcfolie}
+              src={Sykkelcontainer1}
               alt="Sykkelcontainer med Trepanel"
             />
             </Col>
@@ -80,7 +62,7 @@ function Home() {
             <Col md={6}>
             <img
               className="d-block w-100"
-              src={sykkelcfolie}
+              src={Sykkelfolie3}
               alt="Sykkelcontainer med Folie"
             />
             </Col>
@@ -88,7 +70,7 @@ function Home() {
             <Col md={6}>
             <img
               className="d-block w-100"
-              src={sykkelcfolie}
+              src={habitatpanel1}
               alt="Habitatpanel"
             />
             </Col>
@@ -110,9 +92,24 @@ function Home() {
             <Col md={6}>
             <img
               className="d-block w-100"
-              src={sykkelcfolie}
+              src={Sykkelfolie3}
               alt="Trerampe"
             />
+            </Col>
+
+            <Col md={6}>
+            <img
+              className="d-block w-100"
+              src={Sykkelfolie3}
+              alt="Sykkelhotell"
+            />
+            </Col>
+
+            <Col md={6}>
+            <Link to="/Sykkelhotell">
+            <h4>Sykkelhotell</h4>
+                <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
+                </Link>
             </Col>
           </Row>
         </Container>
@@ -122,7 +119,7 @@ function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={Headerimage}
+              src={headerimage}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -133,7 +130,7 @@ function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={Headerimage}
+              src={headerimage}
               alt="Second slide"
             />
     
@@ -145,7 +142,7 @@ function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={Headerimage}
+              src={headerimage}
               alt="Third slide"
             />
     
