@@ -9,6 +9,7 @@ import Trerampe from './components/products/Trerampe';
 import Sykkelhotell from './components/products/Sykkelhotell';
 import Projects from './components/projects/Projects';
 import About from './components/about/About';
+import Footer from './components/footer/Footer';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -33,6 +34,7 @@ function App() {
       </Routes>
     </Container>
     </Router>
+    <Footer />
     </>
   );
 }

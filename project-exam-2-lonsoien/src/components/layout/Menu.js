@@ -16,7 +16,7 @@ function Menu() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-          <Nav.Link href="/home" className="nav-link">
+          <Nav.Link href="/" className="nav-link">
 								HOME
 							</Nav.Link>
             <NavDropdown title="PRODUKTER" id="basic-nav-dropdown">

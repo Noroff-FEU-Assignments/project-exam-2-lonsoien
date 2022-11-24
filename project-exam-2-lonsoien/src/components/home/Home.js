@@ -16,7 +16,6 @@ import kringsjalogo from "../../images/logo/kringsjalogo.gif";
 import CarouselProjects from '../carousel/CarouselProjects'; 
 import { Link } from 'react-router-dom';
 import Header from '../header/Header'; 
-import Footer from '../footer/Footer';
 
 
 
@@ -149,7 +148,6 @@ function Home() {
             </Col>
           </Row>
         </Container>
-        <Footer /> 
         </>
         ); 
     }
