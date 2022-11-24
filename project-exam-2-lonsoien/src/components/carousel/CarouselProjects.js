@@ -1,6 +1,6 @@
 import React from 'react'; 
 import Carousel from 'react-bootstrap/Carousel';
-import headerimage from '../images/headerimage.png'; 
+import headerimage from '../../images/headerimage.png'; 
 
 function CarouselProjects() {
     return (
