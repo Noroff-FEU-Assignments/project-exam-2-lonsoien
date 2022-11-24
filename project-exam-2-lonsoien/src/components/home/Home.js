@@ -1,10 +1,9 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import FormContact from '../layout/FormContact'; 
+
 import Heading from '../layout/Heading';
 import Sykkelcontainer1 from '../../images/products/Sykkelcontainer1.jpg';
 import Sykkelfolie3 from '../../images/products/Sykkelfolie3.jpg'; 
@@ -17,6 +16,7 @@ import kringsjalogo from "../../images/logo/kringsjalogo.gif";
 import CarouselProjects from '../carousel/CarouselProjects'; 
 import { Link } from 'react-router-dom';
 import Header from '../header/Header'; 
+import Footer from '../footer/Footer';
 
 
 
@@ -149,22 +149,7 @@ function Home() {
             </Col>
           </Row>
         </Container>
-    
-        <Container>
-          <Row>
-            <Col md={6}>
-                <h5>KONTAKT OSS</h5>
-                <p> (+47) 923 11 461</p>
-                <p> post@environmentbox.no</p>
-                <p> Tønsberg</p>
-            </Col>
-            <Col md={6}>
-                <FormContact />
-            </Col>
-          </Row>
-        </Container>
-    
-        <p>Organisasjonsnr: 9999999999</p>  
+        <Footer /> 
         </>
         ); 
     }
