@@ -1,20 +1,20 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Carousel from 'react-bootstrap/Carousel';
+
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import FormContact from '../layout/FormContact'; 
 import Heading from '../layout/Heading';
-import headerimage from "../images/headerimage.png"; 
 import Sykkelcontainer1 from '../images/products/Sykkelcontainer1.jpg';
 import Sykkelfolie3 from '../images/products/Sykkelfolie3.jpg'; 
 import habitatpanel1 from '../images/products/Habitattpanel1.jpg'; 
+import sykkelhotell1 from '../images/products/sykkelhotell1.jpeg';
 import oslologo from "../images/logo/oslologo.jpeg"; 
 import Vikenlogo from "../images/logo/Vikenlogo.png";
 import fafologo from "../images/logo/fafologo.png";
 import kringsjalogo from "../images/logo/kringsjalogo.gif"; 
-
+import CarouselProjects from '../carousel/CarouselProjects'; 
 import { Link } from 'react-router-dom';
 import Header from '../header/Header'; 
 
@@ -100,7 +100,7 @@ function Home() {
             <Col md={6}>
             <img
               className="d-block w-100"
-              src={Sykkelfolie3}
+              src={sykkelhotell1}
               alt="Sykkelhotell"
             />
             </Col>
@@ -113,68 +113,28 @@ function Home() {
             </Col>
           </Row>
         </Container>
-
-        <h3>Våre Prosjekter</h3>
-        <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={headerimage}
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={headerimage}
-              alt="Second slide"
-            />
-    
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={headerimage}
-              alt="Third slide"
-            />
-    
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+        <CarouselProjects />
         
         <h3>NOEN AV VÅRE KUNDER</h3>
-        <Container class="logo">
-          <Row xs={6}>
+        <Container>
+          <Row xs={4}>
             <Col>
             <img
-            className="d-block w-100"
+            className="d-block w-50"
               src={oslologo}
               alt="Oslo-community Logo"
             />
             </Col>
             <Col>
             <img
-              className="d-block w-100"
+              className="d-block w-50"
               src={Vikenlogo}
               alt="Viken-community Logo"
             />
             </Col>
             <Col>
             <img
-              className="d-block w-100"
+              className="d-block w-50"
               src={fafologo}
               alt="Fafo Logo"
             />
@@ -182,7 +142,7 @@ function Home() {
 
             <Col>
             <img
-              className="d-block w-100"
+              className="d-block w-50"
               src={kringsjalogo}
               alt="Kringsjå School Logo"
             />

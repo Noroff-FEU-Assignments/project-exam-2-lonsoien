@@ -7,13 +7,12 @@ import Container from 'react-bootstrap/Container';
 function Menu() {
     return (
         <>
-        <Navbar sticky="top" />
-        <Navbar bg="light" expand="lg">
+        <Navbar font-family="Familjen Grotesk, sans-serif" sticky="top" bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Logo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="mx-auto">
           <Nav.Link href="/home" className="nav-link">
 								HOME
 							</Nav.Link>
