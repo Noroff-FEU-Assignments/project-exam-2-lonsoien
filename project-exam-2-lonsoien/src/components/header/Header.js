@@ -9,9 +9,7 @@ function Header() {
   return (
     <>
     <div>
-        <img className='banner'
-        src={headerimage}
-        alt="Header Environmentbox" />
+        <img className="d-block w-100" fluid src={headerimage} alt="Header Environmentbox" />
         </div>
           <h3>Skreddersydde systemer for trygg sykkelparkering</h3>
       </>

@@ -1,7 +1,7 @@
 // custom 
 
 $colour-input: #DFD4C0; 
-$colour-primary: #DFD4C0; 
+$colour-primary: #DFD4C0;
 
 
 //bootstrap
@@ -19,8 +19,7 @@ $theme-colours: (
   }
 
 .banner {
-    width: 110% !important;
-    margin-left: -12px !important;
+    width: 100% !important;
   }
 
 .container-home {
@@ -35,7 +34,9 @@ $theme-colours: (
 }
 
 .btn-send {
-    background-color: #DFD4C0;
+    background-color: white;
+    opacity: 0.8; 
+    margin: 20px;
 }
 
 
