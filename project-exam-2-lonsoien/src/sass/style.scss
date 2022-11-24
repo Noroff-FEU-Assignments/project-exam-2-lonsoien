@@ -14,6 +14,15 @@ $theme-colours: (
 
 // 
 
+* {
+    margin: 0px !important;
+  }
+
+.banner {
+    width: 110% !important;
+    margin-left: -12px !important;
+  }
+
 .container-home {
     text-align: center;
     padding: 20px;
@@ -31,6 +40,6 @@ $theme-colours: (
 
 
 
-
 @import "./partials/typography"; 
 @import "./partials/nav"; 
+@import "./partials//footer"; 

@@ -7,7 +7,8 @@ import Col from 'react-bootstrap/esm/Col';
 function Footer() {
     return (
         <>
-        <Container>
+        <footer>
+        <Container className="footer-box">
           <Row>
             <Col md={6}>
                 <h5>KONTAKT OSS</h5>
@@ -22,6 +23,7 @@ function Footer() {
         </Container>
     
         <p>Organisasjonsnr: 9999999999</p>  
+        </footer>
         </>
     )
 }
