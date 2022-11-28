@@ -39,6 +39,11 @@ $theme-colours: (
     text-align: center !important; 
 }
 
+.profile-img {
+    border-radius: 50% !important; 
+    border-color: pink;
+}
+
 
 
 @import "./partials/typography"; 
