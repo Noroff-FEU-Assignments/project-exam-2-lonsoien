@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 import Heading from '../layout/Heading';
 import Sykkelcontainer1 from '../../images/products/Sykkelcontainer1.jpg';
 import Sykkelfolie3 from '../../images/products/Sykkelfolie3.jpg'; 
-import habitatpanel1 from '../../images/products/Habitattpanel1.jpg'; 
+import habitatpanel1 from '../../images/products/habitatpanel1.jpg'; 
 import sykkelhotell1 from '../../images/products/sykkelhotell1.jpeg';
 import oslologo from "../../images/logo/oslologo.jpeg"; 
 import Vikenlogo from "../../images/logo/Vikenlogo.png";

@@ -4,7 +4,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import Sykkelfolie1 from '../../images/products/Sykkelfolie1.jpg';
 import Sykkelfolie2 from '../../images/products/Sykkelfolie2.jpg';
 import Sykkelfolie3 from '../../images/products/Sykkelfolie3.jpg'; 
-
 import React, { useState } from 'react';
 
 function ControlledCarousel() {
@@ -61,8 +60,8 @@ function ControlledCarousel() {
 export default function ContainerFolie() {
   return (
     <>
-    <section className='Sykkelcontainer'>
-  <Heading title="Sykkelcontainer med Trepanel" />
+    <section>
+  <Heading title="Sykkelcontainer med Folie" />
   <ControlledCarousel />
   <div className="tekst-container" style={{textAlign: "center", padding: "20px", justifyContent: "space-around"}}>
   <p>
