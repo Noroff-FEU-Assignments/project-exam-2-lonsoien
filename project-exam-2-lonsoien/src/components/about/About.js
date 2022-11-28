@@ -1,5 +1,5 @@
 import React from 'react'; 
-//import Container from 'react-bootstrap/esm/Container';
+import Container from 'react-bootstrap/esm/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Benedicte from '../../images/profile/Benedicte.jpeg';
@@ -23,30 +23,35 @@ export default function About() {
             </p>
             <h3>Kontakt Personer</h3>
         </div>
-        <Row>
-            <Col style={{textAlign: "center", padding: "10px"}}>
+        <Container>
+            <Row>
+            <Col>
             <div className="profile-img">
             <img style={{borderRadius: "20%", width: "240px", height: "310px"}}
               src={Benedicte}
-              alt="personlia contact"
+              alt="persona contact"
             />
             <h4 style={{fontSize: "22px", padding: "10px"}}>Benedicte</h4>
             <p>Markedsansvarlig</p>
+            <p>Kontortelefon (+47) 923 11 461</p>
+            <p>Mail: bb@environmentbox.no</p>
             </div>
             </Col>
-            <Col md="auto"></Col>
-            &nbsp;
-            <Col style={{textAlign: "center", padding: "10px"}}>
+
+            <Col>
             <div className="profile-img">
             <img style={{borderRadius: "20%", width: "240px", height: "310px"}}
               src={Mathias}
-              alt="personlia contact"
+              alt="persona contact"
             />
             <h4 style={{fontSize: "22px", padding: "10px"}}>Mathias</h4>
             <p>Salgsansvarlig</p>
+            <p>Kontortelefon (+47) 923 11 461</p>
+            <p>Mail: mte@environmentbox.no</p>
             </div>
             </Col>
             </Row>
+            </Container>
   </>
   );
 }

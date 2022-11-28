@@ -14,7 +14,7 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel interval={null} activeIndex={index} onSelect={handleSelect} style={{padding: "20px"}}>
+    <Carousel bg="dark" interval={null} activeIndex={index} onSelect={handleSelect} style={{padding: "20px"}}>
       <Carousel.Item>
         <img
           className=".d-block w-100"
