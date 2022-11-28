@@ -9,7 +9,7 @@ function Header() {
   return (
     <>
     <div>
-        <img className="d-block w-100" fluid src={headerimage} alt="Header Environmentbox" />
+        <img src={headerimage} alt="Header Environmentbox" className="container-fluid" />
         </div>
           <h3>Skreddersydde systemer for trygg sykkelparkering</h3>
       </>
@@ -17,5 +17,6 @@ function Header() {
 }
 
 export default Header;
+
 
 // className="d-block w-100"

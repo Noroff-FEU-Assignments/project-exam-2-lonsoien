@@ -14,10 +14,6 @@ $theme-colours: (
 
 // 
 
-* {
-    margin: 0px !important;
-  }
-
 .banner {
     width: 100% !important;
   }
@@ -37,6 +33,10 @@ $theme-colours: (
     background-color: white;
     opacity: 0.8; 
     margin: 20px;
+}
+
+.sykkelcontainer {
+    text-align: center !important; 
 }
 
 

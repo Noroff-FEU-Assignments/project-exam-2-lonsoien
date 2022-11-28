@@ -42,20 +42,19 @@ function Home() {
               alt="Sykkelcontainer med Trepanel"
             />
             </Col>
-
             
-            <Col md={6}>
+            <Col md={6} className="trepanel" style={{padding: "10px"}}>
             <Link to="/ContainerTrepanel">
                 <h4>Sykkelcontainer med Trepanel</h4>
-                <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
                 </Link>
+                <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
 
-            <Col md={6}>
+            <Col md={6} style={{padding: "10px"}}>
             <Link to="/ContainerFolie">
             <h4>Sykkelcontainer med Folie</h4>
-                <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
                 </Link>
+                <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
 
             <Col md={6}>
@@ -74,18 +73,18 @@ function Home() {
             />
             </Col>
 
-            <Col md={6}>
+            <Col md={6} style={{padding: "10px"}}>
             <Link to="/Habitatpanel">
             <h4>Habitatpanel</h4>
-                <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
                 </Link>
+                <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
 
-            <Col md={6}>
+            <Col md={6} style={{padding: "10px"}}>
             <Link to="/Trerampe">
             <h4>Trerampe</h4>
-                <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
                 </Link>
+                <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
 
             <Col md={6}>
@@ -104,11 +103,11 @@ function Home() {
             />
             </Col>
 
-            <Col md={6}>
+            <Col md={6} style={{padding: "10px"}}>
             <Link to="/Sykkelhotell">
             <h4>Sykkelhotell</h4>
-                <p>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
                 </Link>
+                <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
           </Row>
         </Container>
