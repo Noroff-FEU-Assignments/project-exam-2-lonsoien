@@ -25,8 +25,8 @@ function Footer() {
             </div>
             {/* Footer Bottom */}
             <div className="footer-bottom">
-              <p className="text-xs-center">
-                &copy;{new Date().getFullYear()} Organisasjonsnr: 999999999
+              <p style={{marginTop: "30px", paddingTop: "20px", textAlign: "center"}}>
+                &copy;{new Date().getFullYear()} Environmentbox AS - Organisasjonsnr: 999999999
               </p>
             </div>
           </div>
@@ -37,20 +37,3 @@ function Footer() {
 
 export default Footer; 
 
-//  <footer>
-//<Container className="footer-box">
-//<Row>
-//  <Col md={6}>
- //     <h5>KONTAKT OSS</h5>
- //     <p> (+47) 923 11 461</p>
-  //    <p> post@environmentbox.no</p>
-  //    <p> Tønsberg</p>
- // </Col>
- // <Col md={6}>
-  //    <FormContact />
- // </Col>
-// </Row>
-// </Container>
-
- // <p>Organisasjonsnr: 9999999999</p>  
-//  </footer>
