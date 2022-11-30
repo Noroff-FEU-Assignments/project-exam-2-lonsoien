@@ -15,8 +15,7 @@ function ControlledCarousel() {
   return (
     <Carousel interval={null} activeIndex={index} onSelect={handleSelect} style={{padding: "20px"}}>
       <Carousel.Item>
-        <img
-          className=".d-block w-100"
+        <img className=".d-block w-100" style={{height: "700px"}}
           src={sykkelhotell1}
           alt="First slide"
         />
@@ -26,8 +25,7 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
+        <img className="d-block w-100" style={{height: "700px"}}
           src={sykkelhotell2}
           alt="Second slide"
         />
@@ -38,8 +36,7 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
+        <img className="d-block w-100" style={{height: "700px"}}
           src={sykkelhotell3}
           alt="Third slide"
         />
@@ -59,8 +56,8 @@ function ControlledCarousel() {
 export default function Sykkelhotell() {
   return (
     <>
-    <section className='Sykkelcontainer'>
-  <Heading title="Sykkelcontainer med Trepanel" />
+    <section>
+  <Heading title="Sykkelhotell" />
   <ControlledCarousel />
   <div className="tekst-container" style={{textAlign: "center", padding: "20px", justifyContent: "space-around"}}>
   <p>

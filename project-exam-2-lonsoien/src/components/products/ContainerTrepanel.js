@@ -17,8 +17,7 @@ function ControlledCarousel() {
   return (
     <Carousel interval={null} activeIndex={index} onSelect={handleSelect} style={{padding: "20px"}}>
       <Carousel.Item>
-        <img
-          className=".d-block w-100"
+        <img className=".d-block w-100" style={{height: "700px"}}
           src={Sykkelcontainer1}
           alt="First slide"
         />
@@ -28,8 +27,7 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
+        <img className="d-block w-100" style={{height: "700px"}}
           src={Sykkelcontainer2}
           alt="Second slide"
         />
@@ -40,8 +38,7 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
+        <img className="d-block w-100" style={{height: "700px"}}
           src={Sykkelcontainer4}
           alt="Third slide"
         />
@@ -55,8 +52,7 @@ function ControlledCarousel() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <img
-          className="d-block w-100"
+        <img className="d-block w-100" style={{height: "700px"}}
           src={Sykkelcontainer5}
           alt="Third slide"
         />
@@ -76,7 +72,7 @@ function ControlledCarousel() {
 export default function ContainerTrepanel() {
   return (
     <>
-    <section className='Sykkelcontainer'>
+    <section>
   <Heading title="Sykkelcontainer med Trepanel" />
   <ControlledCarousel />
   <div className="tekst-container" style={{textAlign: "center", padding: "20px", justifyContent: "space-around"}}>

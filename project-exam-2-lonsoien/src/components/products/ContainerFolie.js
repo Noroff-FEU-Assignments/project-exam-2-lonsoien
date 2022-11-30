@@ -14,10 +14,9 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel bg="dark" interval={null} activeIndex={index} onSelect={handleSelect} style={{padding: "20px"}}>
+    <Carousel interval={null} activeIndex={index} onSelect={handleSelect} style={{padding: "20px"}}>
       <Carousel.Item>
-        <img
-          className=".d-block w-100"
+        <img className=".d-block w-100" style={{height: "700px"}}
           src={Sykkelfolie1}
           alt="First slide"
         />
@@ -27,8 +26,7 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
+        <img className="d-block w-100" style={{height: "700px"}}
           src={Sykkelfolie2}
           alt="Second slide"
         />
@@ -39,8 +37,7 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
+        <img className="d-block w-100" style={{height: "700px"}}
           src={Sykkelfolie3}
           alt="Third slide"
         />
