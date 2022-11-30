@@ -27,7 +27,7 @@ export default function About() {
             <div className="row" style={{textAlign: "center"}}>
         <div className="col-md-6 col sm-6">
             <div className="profile-img">
-            <img style={{borderRadius: "20%", width: "240px", height: "310px"}}
+            <img style={{borderRadius: "20%", width: "270px", height: "350px"}}
               src={Benedicte}
               alt="persona contact"
             />
@@ -38,9 +38,9 @@ export default function About() {
             </div>
             </div>
            
-            <div className="col-md-6 col sm-6">
+            <div className="col-md-6 col sm-4">
             <div className="profile-img">
-            <img style={{borderRadius: "20%", width: "240px", height: "310px"}}
+            <img style={{borderRadius: "20%", width: "270px", height: "350px"}}
               src={Mathias}
               alt="persona contact"
             />
@@ -55,3 +55,6 @@ export default function About() {
   </>
   );
 }
+
+// <div class="row row-cols-2">
+// <div class="col">

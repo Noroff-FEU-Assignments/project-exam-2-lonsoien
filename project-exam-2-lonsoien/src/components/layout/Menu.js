@@ -10,7 +10,7 @@ function Menu() {
         <>
         <Navbar sticky="top" bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img src={Environmentlogo} alt="brand logo" style={{width: "3.5rem"}}/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

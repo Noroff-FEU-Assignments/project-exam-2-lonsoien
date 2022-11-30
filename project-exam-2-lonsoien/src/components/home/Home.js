@@ -42,14 +42,14 @@ function Home() {
             />
             </Col>
             
-            <Col md={6} className="trepanel" style={{padding: "10px"}}>
+            <Col md={6} className="trepanel" style={{padding: "30px"}}>
             <Link to="/ContainerTrepanel" className="text-decoration-none">
                 <h4>Sykkelcontainer med Trepanel</h4>
                 </Link>
                 <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
 
-            <Col md={6} style={{padding: "10px"}}>
+            <Col md={6} style={{padding: "30px"}}>
             <Link to="/ContainerFolie" className="text-decoration-none">
             <h4>Sykkelcontainer med Folie</h4>
                 </Link>
@@ -70,14 +70,14 @@ function Home() {
             />
             </Col>
 
-            <Col md={6} style={{padding: "10px"}}>
+            <Col md={6} style={{padding: "30px"}}>
             <Link to="/Habitatpanel" className="text-decoration-none">
             <h4>Habitatpanel</h4>
                 </Link>
                 <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
 
-            <Col md={6} style={{padding: "10px"}}>
+            <Col md={6} style={{padding: "30px"}}>
             <Link to="/Trerampe" className="text-decoration-none">
             <h4>Trerampe</h4>
                 </Link>
@@ -98,7 +98,7 @@ function Home() {
             />
             </Col>
 
-            <Col md={6} style={{padding: "10px"}}>
+            <Col md={6} style={{padding: "30px"}}>
             <Link to="/Sykkelhotell" className="text-decoration-none">
             <h4>Sykkelhotell</h4>
                 </Link>
@@ -110,32 +110,28 @@ function Home() {
         
         <h3>NOEN AV VÅRE KUNDER</h3>
         <Container>
-          <Row xs={4}>
+          <Row xs={4} style={{paddingLeft: "50px"}}>
             <Col>
-            <img
-            className="d-block w-50"
+            <img className="d-block w-50" style={{padding: "15px", margin: "10px"}}
               src={oslologo}
               alt="Oslo-community Logo"
             />
             </Col>
             <Col>
-            <img
-              className="d-block w-50"
+            <img className="d-block w-50" style={{padding: "15px", margin: "10px"}}
               src={Vikenlogo}
               alt="Viken-community Logo"
             />
             </Col>
             <Col>
-            <img
-              className="d-block w-50"
+            <img className="d-block w-50" style={{padding: "15px", margin: "10px"}}
               src={fafologo}
               alt="Fafo Logo"
             />
             </Col>
 
             <Col>
-            <img
-              className="d-block w-50"
+            <img className="d-block w-50" style={{padding: "15px", margin: "10px"}}
               src={kringsjalogo}
               alt="Kringsjå School Logo"
             />
