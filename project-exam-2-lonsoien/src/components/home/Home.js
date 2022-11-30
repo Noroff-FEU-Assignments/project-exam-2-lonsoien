@@ -34,77 +34,72 @@ function Home() {
         </div>
 
         <Container>
-          <Row>
+          <Row style={{backgroundColor: '#DFD4C0'}}>
             <Col md={6}>
-            <img
-              className="d-block w-100"
+            <img className="d-block w-100" style={{height: "400px"}}
               src={Sykkelcontainer1}
               alt="Sykkelcontainer med Trepanel"
             />
             </Col>
             
             <Col md={6} className="trepanel" style={{padding: "10px"}}>
-            <Link to="/ContainerTrepanel">
+            <Link to="/ContainerTrepanel" className="text-decoration-none">
                 <h4>Sykkelcontainer med Trepanel</h4>
                 </Link>
                 <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
 
             <Col md={6} style={{padding: "10px"}}>
-            <Link to="/ContainerFolie">
+            <Link to="/ContainerFolie" className="text-decoration-none">
             <h4>Sykkelcontainer med Folie</h4>
                 </Link>
                 <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
 
             <Col md={6}>
-            <img
-              className="d-block w-100"
+            <img className="d-block w-100" style={{height: "400px"}}
               src={Sykkelfolie3}
               alt="Sykkelcontainer med Folie"
             />
             </Col>
 
             <Col md={6}>
-            <img
-              className="d-block w-100"
+            <img className="d-block w-100" style={{height: "400px"}}
               src={habitatpanel1}
               alt="Habitatpanel"
             />
             </Col>
 
             <Col md={6} style={{padding: "10px"}}>
-            <Link to="/Habitatpanel">
+            <Link to="/Habitatpanel" className="text-decoration-none">
             <h4>Habitatpanel</h4>
                 </Link>
                 <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
 
             <Col md={6} style={{padding: "10px"}}>
-            <Link to="/Trerampe">
+            <Link to="/Trerampe" className="text-decoration-none">
             <h4>Trerampe</h4>
                 </Link>
                 <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
 
             <Col md={6}>
-            <img
-              className="d-block w-100"
+            <img className="d-block w-100" style={{height: "400px"}}
               src={Sykkelfolie3}
               alt="Trerampe"
             />
             </Col>
 
             <Col md={6}>
-            <img
-              className="d-block w-100"
+            <img className="d-block w-100" style={{height: "400px"}}
               src={sykkelhotell1}
               alt="Sykkelhotell"
             />
             </Col>
 
             <Col md={6} style={{padding: "10px"}}>
-            <Link to="/Sykkelhotell">
+            <Link to="/Sykkelhotell" className="text-decoration-none">
             <h4>Sykkelhotell</h4>
                 </Link>
                 <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
