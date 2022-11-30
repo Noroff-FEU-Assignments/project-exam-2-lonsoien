@@ -1,7 +1,7 @@
 import React from 'react'; 
-import Container from 'react-bootstrap/esm/Container';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+//import Container from 'react-bootstrap/esm/Container';
+//import Col from 'react-bootstrap/Col';
+//import Row from 'react-bootstrap/Row';
 import Benedicte from '../../images/profile/Benedicte.jpeg';
 import Mathias from '../../images/profile/Mathias.jpeg';
 import Heading from '../layout/Heading';
@@ -23,9 +23,9 @@ export default function About() {
             </p>
             <h3>Kontakt Personer</h3>
         </div>
-        <Container>
-            <Row>
-            <Col>
+        <div className="container-home">
+            <div className="row" style={{textAlign: "center"}}>
+        <div className="col-md-6 col sm-6">
             <div className="profile-img">
             <img style={{borderRadius: "20%", width: "240px", height: "310px"}}
               src={Benedicte}
@@ -36,9 +36,9 @@ export default function About() {
             <p>Kontortelefon (+47) 923 11 461</p>
             <p>Mail: bb@environmentbox.no</p>
             </div>
-            </Col>
-
-            <Col>
+            </div>
+           
+            <div className="col-md-6 col sm-6">
             <div className="profile-img">
             <img style={{borderRadius: "20%", width: "240px", height: "310px"}}
               src={Mathias}
@@ -49,9 +49,9 @@ export default function About() {
             <p>Kontortelefon (+47) 923 11 461</p>
             <p>Mail: mte@environmentbox.no</p>
             </div>
-            </Col>
-            </Row>
-            </Container>
+        </div>
+        </div>
+        </div>
   </>
   );
 }

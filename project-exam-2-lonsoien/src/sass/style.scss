@@ -14,10 +14,6 @@ $theme-colours: (
 
 // 
 
-.banner {
-    width: 100% !important;
-  }
-
 .container-home {
     text-align: center;
     padding: 20px;
@@ -29,16 +25,20 @@ $theme-colours: (
     border-width: 3px;
 }
 
-.btn-send {
-    background-color: white;
-    opacity: 0.8; 
-    margin: 20px;
+.btn-om-oss:hover {
+    background-color: #DFD4C0;
 }
 
 .sykkelcontainer {
     text-align: center !important; 
 }
 
+.header {
+    background-image: url("../images/headerimage.png") !important; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px; 
+}
 
 
 
