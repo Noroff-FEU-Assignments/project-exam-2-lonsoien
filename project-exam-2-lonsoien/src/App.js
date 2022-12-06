@@ -1,5 +1,5 @@
 import './sass/style.scss';
-import Login from './components/admin/Login';
+import Login from './components/login/Login';
 import DashBoard from './components/dashboard/DashBoard';
 import Home from "./components/home/Home"; 
 import Menu from "./components/layout/Menu"; 
