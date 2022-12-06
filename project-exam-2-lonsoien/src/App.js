@@ -1,5 +1,6 @@
 import './sass/style.scss';
-import Admin from './components/admin/Admin';
+import Login from './components/admin/Login';
+import DashBoard from './components/dashboard/DashBoard';
 import Home from "./components/home/Home"; 
 import Menu from "./components/layout/Menu"; 
 import ContainerTrepanel from './components/products/ContainerTrepanel';
@@ -30,7 +31,8 @@ function App() {
         <Route path="/sykkelhotell" element={<Sykkelhotell />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<DashBoard />} />
       </Routes>
     </Container>
     </Router>
