@@ -34,7 +34,7 @@ function Home() {
         </div>
 
         <Container>
-          <Row style={{backgroundColor: '#DFD4C0'}}>
+          <Row>
             <Col md={6}>
             <img className="d-block w-100" style={{height: "400px"}}
               src={Sykkelcontainer1}
@@ -42,15 +42,15 @@ function Home() {
             />
             </Col>
             
-            <Col md={6} className="trepanel" style={{padding: "30px"}}>
-            <Link to="/ContainerTrepanel" className="text-decoration-none">
+            <Col md={6} className="trepanel" style={{padding: "30px", backgroundColor: '#DFD4C0'}}>
+            <Link to="/ContainerTrepanel" className="text-decoration-none" style={{color: 'black'}}>
                 <h4>Sykkelcontainer med Trepanel</h4>
                 </Link>
                 <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
 
             <Col md={6} style={{padding: "30px"}}>
-            <Link to="/ContainerFolie" className="text-decoration-none">
+            <Link to="/ContainerFolie" className="text-decoration-none" style={{color: 'black'}}>
             <h4>Sykkelcontainer med Folie</h4>
                 </Link>
                 <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
@@ -70,15 +70,15 @@ function Home() {
             />
             </Col>
 
-            <Col md={6} style={{padding: "30px"}}>
-            <Link to="/Habitatpanel" className="text-decoration-none">
+            <Col md={6} style={{padding: "30px", backgroundColor: '#DFD4C0'}}>
+            <Link to="/Habitatpanel" className="text-decoration-none" style={{color: 'black'}}>
             <h4>Habitatpanel</h4>
                 </Link>
                 <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
 
             <Col md={6} style={{padding: "30px"}}>
-            <Link to="/Trerampe" className="text-decoration-none">
+            <Link to="/Trerampe" className="text-decoration-none" style={{color: 'black'}}>
             <h4>Trerampe</h4>
                 </Link>
                 <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
@@ -98,8 +98,8 @@ function Home() {
             />
             </Col>
 
-            <Col md={6} style={{padding: "30px"}}>
-            <Link to="/Sykkelhotell" className="text-decoration-none">
+            <Col md={6} style={{padding: "30px", backgroundColor: '#DFD4C0'}}>
+            <Link to="/Sykkelhotell" className="text-decoration-none" style={{color: 'black'}}>
             <h4>Sykkelhotell</h4>
                 </Link>
                 <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
