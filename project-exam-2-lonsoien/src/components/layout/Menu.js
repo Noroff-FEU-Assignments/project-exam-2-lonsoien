@@ -28,7 +28,7 @@ function Menu() {
             </NavDropdown>
             <Nav.Link href="/projects" className="nav-link">PROSJEKTER</Nav.Link>
             <Nav.Link href="/about" className="nav-link">OM OSS</Nav.Link>
-            <Nav.Link href="/admin" className="nav-link">LOGIN</Nav.Link>
+            <Nav.Link href="/login" className="nav-link">LOGIN</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
