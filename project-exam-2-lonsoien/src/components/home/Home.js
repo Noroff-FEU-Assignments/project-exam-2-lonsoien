@@ -63,13 +63,6 @@ function Home() {
             />
             </Col>
 
-            <Col md={6}>
-            <img className="d-block w-100" style={{height: "400px"}}
-              src={habitatpanel1}
-              alt="Habitatpanel"
-            />
-            </Col>
-
             <Col md={6} style={{padding: "30px", backgroundColor: '#DFD4C0'}}>
             <Link to="/Habitatpanel" className="text-decoration-none" style={{color: 'black'}}>
             <h4>Habitatpanel</h4>
@@ -77,17 +70,10 @@ function Home() {
                 <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
             </Col>
 
-            <Col md={6} style={{padding: "30px"}}>
-            <Link to="/Trerampe" className="text-decoration-none" style={{color: 'black'}}>
-            <h4>Trerampe</h4>
-                </Link>
-                <p style={{fontSize: "20px"}}>Effektiv og innovativ parkeringsløsning for sykler. Spesielt egnet for bedrifter og skoler.</p>
-            </Col>
-
             <Col md={6}>
             <img className="d-block w-100" style={{height: "400px"}}
-              src={Sykkelfolie3}
-              alt="Trerampe"
+              src={habitatpanel1}
+              alt="Habitatpanel"
             />
             </Col>
 
@@ -98,7 +84,7 @@ function Home() {
             />
             </Col>
 
-            <Col md={6} style={{padding: "30px", backgroundColor: '#DFD4C0'}}>
+            <Col md={6} style={{padding: "30px"}}>
             <Link to="/Sykkelhotell" className="text-decoration-none" style={{color: 'black'}}>
             <h4>Sykkelhotell</h4>
                 </Link>
