@@ -3,8 +3,8 @@ import Heading from '../layout/Heading';
 function DashBoard() {
   return (
     <>
-      <Heading title="Admin" />
-      <p>This is the Admin page</p>
+      <Heading title="Dashboard" />
+      <p>Welcome to your Dashboard</p>
     </>
   );
 }

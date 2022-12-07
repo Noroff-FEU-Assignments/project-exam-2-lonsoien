@@ -10,14 +10,16 @@ import Sykkelhotell from './components/products/Sykkelhotell';
 import Projects from './components/projects/Projects';
 import About from './components/about/About';
 import Footer from './components/footer/Footer';
-
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Container from 'react-bootstrap/esm/Container';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { AuthProvider } from './context/AuthContext'; 
+
+
 
 function App() {
   return (
     <>
+    <AuthProvider>
     <Router>
     <Menu />
     <Container>
@@ -34,6 +36,7 @@ function App() {
       </Routes>
     </Container>
     </Router>
+    </AuthProvider>
     <Footer />
     </>
   );

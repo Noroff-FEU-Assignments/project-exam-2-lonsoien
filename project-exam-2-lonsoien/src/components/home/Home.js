@@ -16,6 +16,8 @@ import kringsjalogo from "../../images/logo/kringsjalogo.gif";
 import CarouselProjects from '../carousel/CarouselProjects'; 
 import { Link } from 'react-router-dom';
 import Header from '../header/Header'; 
+import GridExample from '../layout/GridExample';
+
 
 
 
@@ -32,6 +34,9 @@ function Home() {
             </p>
             <Button href="/About" variant="om-oss">OM OSS</Button>
         </div>
+
+        <GridExample />
+        <br></br>
 
         <Container>
           <Row>
@@ -127,5 +132,5 @@ function Home() {
         </>
         ); 
     }
-    
+
     export default Home
