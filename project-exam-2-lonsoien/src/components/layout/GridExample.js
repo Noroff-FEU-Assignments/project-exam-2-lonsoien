@@ -1,7 +1,7 @@
 //import Card from 'react-bootstrap/Card';
 //import Col from 'react-bootstrap/Col';
 //import Row from 'react-bootstrap/Row';
-
+import Button from 'react-bootstrap/Button';
 import Sykkelcontainer1 from '../../images/products/Sykkelcontainer1.jpg';
 import Sykkelfolie3 from '../../images/products/Sykkelfolie3.jpg'; 
 import habitatpanel1 from '../../images/products/habitatpanel1.jpg'; 
@@ -17,6 +17,7 @@ function GridExample() {
       <div className="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <Button href="/containertrepanel" variant="om-oss">Se Produkt</Button>
       </div>
     </div>
   </div>
@@ -26,6 +27,7 @@ function GridExample() {
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
         <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <Button href="/containerfolie" variant="om-oss">Se Produkt</Button>
       </div>
     </div>
   </div>
@@ -35,6 +37,7 @@ function GridExample() {
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
         <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <Button href="/habitatpanel" variant="om-oss">Se Produkt</Button>
       </div>
     </div>
   </div>
@@ -44,6 +47,7 @@ function GridExample() {
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
         <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. </p>
+        <Button href="/sykkelhotell" variant="om-oss">Se Produkt</Button>
       </div>
     </div>
   </div>
