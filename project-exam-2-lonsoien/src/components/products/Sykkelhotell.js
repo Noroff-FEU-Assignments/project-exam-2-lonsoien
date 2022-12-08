@@ -17,19 +17,19 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img className="d-block w-100"
           src={sykkelhotell1}
-          alt="First slide"
+          alt="Hotell First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100"
           src={sykkelhotell2}
-          alt="Second slide"
+          alt="Hotell Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100"
           src={sykkelhotell3}
-          alt="Third slide"
+          alt="Hotell Third slide"
         />
       </Carousel.Item>
     </Carousel>

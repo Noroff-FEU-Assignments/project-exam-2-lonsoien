@@ -33,7 +33,7 @@ function Home() {
         <br></br>
         <CarouselProjects />
         <br></br>
-        <h3>NOEN AV VÅRE KUNDER</h3>
+        <h3>Noen av våre kunder</h3>
         <br></br>
         <Container>
           <Row xs={4} style={{paddingLeft: "50px"}}>

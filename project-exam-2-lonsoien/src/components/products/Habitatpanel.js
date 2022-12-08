@@ -1,11 +1,10 @@
 
 import Heading from '../layout/Heading';
 import Carousel from 'react-bootstrap/Carousel';
-import habitatpanel1 from '../../images/products/habitatpanel1.jpg'; 
-import habitatpanel2 from '../../images/products/habitatpanel2.jpg';
-import habitatpanel3 from '../../images/products/habitatpanel3.jpg';
-import habitatpanel4 from '../../images/products/habitatpanel4.jpg';
 import React, { useState } from 'react';
+import Habitattpanel1 from '../../images/products/Habitattpanel1.jpg';
+import habitattpanel2 from '../../images/products/habitattpanel2.jpg';
+import habitattpanel3 from '../../images/products/habitattpanel3.jpg';
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -18,27 +17,20 @@ function ControlledCarousel() {
     <Carousel interval={null} activeIndex={index} onSelect={handleSelect} style={{padding: "20px"}}>
       <Carousel.Item>
         <img className="d-block w-100"
-          src={habitatpanel1}
-          alt="First slide"
+          src={Habitattpanel1}
+          alt="Habitat First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100"
-          src={habitatpanel2}
-          alt="Second slide"
+          src={habitattpanel2}
+          alt="Habitat Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100"
-          src={habitatpanel3}
-          alt="Third slide"
-        />
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img className="d-block w-100"
-          src={habitatpanel4}
-          alt="fourth slide"
+          src={habitattpanel3}
+          alt="Habitat Third slide"
         />
       </Carousel.Item>
     </Carousel>

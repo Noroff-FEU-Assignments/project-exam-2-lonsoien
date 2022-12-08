@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Sykkelcontainer1 from '../../images/products/Sykkelcontainer1.jpg';
 import Sykkelfolie3 from '../../images/products/Sykkelfolie3.jpg'; 
-import habitatpanel1 from '../../images/products/habitatpanel1.jpg'; 
+import Habitattpanel1 from '../../images/products/Habitattpanel1.jpg'; 
 import sykkelhotell1 from '../../images/products/sykkelhotell1.jpeg';
 
 function ProductCard() {
@@ -10,7 +10,7 @@ function ProductCard() {
     <div className="row row-cols-1 row-cols-md-2 g-4">
   <div className="col">
     <div className="card">
-      <img src={Sykkelcontainer1} className="card-img-top" alt="sykkel" style={{height: "400px"}} />
+      <img src={Sykkelcontainer1} className="card-img-top" alt="sykkel-trepanel" style={{height: "400px"}} />
       <div className="card-body">
         <h5 class="card-title">SYKKELCONTAINER MED TREPANEL</h5>
         <br></br>
@@ -21,7 +21,7 @@ function ProductCard() {
   </div>
   <div className="col">
     <div className="card">
-      <img src={Sykkelfolie3} className="card-img-top" alt="folie" style={{height: "400px"}} />
+      <img src={Sykkelfolie3} className="card-img-top" alt="sykkel-folie" style={{height: "400px"}} />
       <div className="card-body">
         <h5 className="card-title">SYKKELCONTAINER MED FOLIE</h5>
         <br></br>
@@ -32,7 +32,7 @@ function ProductCard() {
   </div>
   <div className="col">
     <div className="card">
-      <img src={habitatpanel1} className="card-img-top" alt="habitat" style={{height: "400px"}} />
+      <img src={Habitattpanel1} className="card-img-top" alt="habitat" style={{height: "400px"}} />
       <div className="card-body">
         <h5 className="card-title">HABITATPANEL</h5>
         <br></br>

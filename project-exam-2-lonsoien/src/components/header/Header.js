@@ -16,4 +16,3 @@ export default Header;
 
 
 
-// <img src={headerimage} alt="Header Environmentbox" />
