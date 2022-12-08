@@ -10,7 +10,7 @@ import fafologo from "../../images/logo/fafologo.png";
 import kringsjalogo from "../../images/logo/kringsjalogo.gif"; 
 import CarouselProjects from '../carousel/CarouselProjects'; 
 import Header from '../header/Header'; 
-import GridExample from '../layout/GridExample';
+import ProductCard from '../layout/ProductCard';
 
 
 
@@ -29,11 +29,12 @@ function Home() {
             <Button href="/About" variant="om-oss">OM OSS</Button>
         </div>
 
-        <GridExample />
+        <ProductCard />
         <br></br>
         <CarouselProjects />
-        
+        <br></br>
         <h3>NOEN AV VÅRE KUNDER</h3>
+        <br></br>
         <Container>
           <Row xs={4} style={{paddingLeft: "50px"}}>
             <Col>

@@ -1,8 +1,5 @@
 import React from 'react'; 
 import FormContact from '../layout/FormContact';
-//import Container from 'react-bootstrap/esm/Container';
-//import Row from 'react-bootstrap/Row';
-//import Col from 'react-bootstrap/esm/Col';
 
 function Footer() {
     return (
@@ -11,7 +8,7 @@ function Footer() {
           <div className="container">
             <div className="row">
               {/*Column 1 */}
-              <div className="col-md-6 col sm-6">
+              <div className="col-md-6 col sm-6" style={{marginTop: "100px"}}>
                 <h4>Kontakt Oss</h4>
                 <ul className="list-unstyled">
                   <li>(+47) 923 11 461</li>

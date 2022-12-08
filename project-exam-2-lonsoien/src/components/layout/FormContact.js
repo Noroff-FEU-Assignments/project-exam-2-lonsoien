@@ -25,7 +25,7 @@ function FormContact() {
 
 	return (
 		<form onSubmit={handleSubmit(onSubmit)}>
-			<h2>Contact Form</h2>
+			<h3 style={{textAlign: "left", marginTop: "20px"}}>Send oss forespørsel:</h3>
 			<br></br>
 			<p>Name:</p>
 			<input {...register("name")} />
