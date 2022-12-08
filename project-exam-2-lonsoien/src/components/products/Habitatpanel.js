@@ -17,26 +17,26 @@ function ControlledCarousel() {
   return (
     <Carousel interval={null} activeIndex={index} onSelect={handleSelect} style={{padding: "20px"}}>
       <Carousel.Item>
-        <img className="d-block w-100" style={{height: "700px"}}
+        <img className="d-block w-100"
           src={habitatpanel1}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" style={{height: "700px"}}
+        <img className="d-block w-100"
           src={habitatpanel2}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" style={{height: "700px"}}
+        <img className="d-block w-100"
           src={habitatpanel3}
           alt="Third slide"
         />
       </Carousel.Item>
 
       <Carousel.Item>
-        <img className="d-block w-100" style={{height: "700px"}}
+        <img className="d-block w-100"
           src={habitatpanel4}
           alt="fourth slide"
         />

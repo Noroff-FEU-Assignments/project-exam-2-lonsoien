@@ -38,26 +38,26 @@ function Home() {
         <Container>
           <Row xs={4} style={{paddingLeft: "50px"}}>
             <Col>
-            <img className="d-block w-50" style={{padding: "15px", margin: "10px"}}
+            <img className="d-block w-75" style={{padding: "15px", margin: "10px"}}
               src={oslologo}
               alt="Oslo-community Logo"
             />
             </Col>
             <Col>
-            <img className="d-block w-50" style={{padding: "15px", margin: "10px"}}
+            <img className="d-block w-75" style={{padding: "15px", margin: "10px"}}
               src={Vikenlogo}
               alt="Viken-community Logo"
             />
             </Col>
             <Col>
-            <img className="d-block w-50" style={{padding: "15px", margin: "10px"}}
+            <img className="d-block w-75" style={{padding: "15px", margin: "10px"}}
               src={fafologo}
               alt="Fafo Logo"
             />
             </Col>
 
             <Col>
-            <img className="d-block w-50" style={{padding: "15px", margin: "10px"}}
+            <img className="d-block w-75" style={{padding: "15px", margin: "10px"}}
               src={kringsjalogo}
               alt="Kringsjå School Logo"
             />

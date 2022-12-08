@@ -1,10 +1,8 @@
 
 import Heading from '../layout/Heading';
 import Carousel from 'react-bootstrap/Carousel';
-import Sykkelcontainer1 from '../../images/products/Sykkelcontainer1.jpg';
 import Sykkelcontainer2 from '../../images/products/Sykkelcontainer2.jpg';
 import Sykkelcontainer4 from '../../images/products/Sykkelcontainer4.jpg';
-import Sykkelcontainer5 from '../../images/products/Sykkelcontainer5.jpg';
 import React, { useState } from 'react';
 
 function ControlledCarousel() {
@@ -17,31 +15,18 @@ function ControlledCarousel() {
   return (
     <Carousel interval={null} activeIndex={index} onSelect={handleSelect} style={{padding: "20px"}}>
       <Carousel.Item>
-        <img className=".d-block w-100" style={{height: "700px"}}
-          src={Sykkelcontainer1}
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className="d-block w-100" style={{height: "700px"}}
+        <img className="d-block w-100"
           src={Sykkelcontainer2}
-          alt="Second slide"
+          alt="Trepanel first slide"
         />
-
       </Carousel.Item>
+
       <Carousel.Item>
-        <img className="d-block w-100" style={{height: "700px"}}
+        <img className="d-block w-100"
           src={Sykkelcontainer4}
-          alt="Third slide"
+          alt="Trepanel second slide"
         />
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <img className="d-block w-100" style={{height: "700px"}}
-          src={Sykkelcontainer5}
-          alt="Third slide"
-        />
-      </Carousel.Item>
+        </Carousel.Item>
     </Carousel>
   );
 }
