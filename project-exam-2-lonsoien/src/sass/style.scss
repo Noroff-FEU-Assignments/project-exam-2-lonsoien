@@ -77,12 +77,19 @@ ul.posts a {
 	color: darkred;
 	font-weight: bold;
 }
+
 .success {
     font-family:'Familjen Grotesk', sans-serif; 
 	padding: 1rem;
 	margin: 10px 0;
 	background: green;
 	color: white;
+}
+
+.delete {
+	background: red;
+	color: white;
+	border: none;
 }
 
 // @media (min-width: 768px)
