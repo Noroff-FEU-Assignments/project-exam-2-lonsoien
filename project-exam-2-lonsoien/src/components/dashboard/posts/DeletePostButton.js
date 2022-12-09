@@ -12,13 +12,17 @@ export default function DeletePostButton({ id }) {
 	const url = `/wp/v2/posts/${id}`;
 
 	async function handleDelete() {
-		try {
-			await http.delete(url);
-			navigate("/dashboard/posts");
-		} catch (error) {
-			setError(error);
-		}
-	}
+        const confirmDelete = window.confirm("Delete this post?");
+
+        if (confirmDelete) {
+            try {
+             await http.delete(url);
+             navigate("/dashboard/posts");
+            } catch (error) {
+             setError(error);
+            }
+           }
+          }
 
 	return (
 		<button type="button" className="delete" onClick={handleDelete}>
