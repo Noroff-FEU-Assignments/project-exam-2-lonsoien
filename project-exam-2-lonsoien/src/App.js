@@ -12,7 +12,7 @@ import Footer from './components/footer/Footer';
 import Container from 'react-bootstrap/esm/Container';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider } from './context/AuthContext'; 
-
+import EditPost from './components/dashboard/posts/EditPost'; 
 import PostPage from "./components/dashboard/posts/PostPage";
 import AddPost from "./components/dashboard/posts/AddPost";
 import DashBoardPage from './components/dashboard/DashBoardPage';
@@ -38,6 +38,7 @@ function App() {
         <Route path="/dashboard" element={<DashBoardPage />} />
         <Route path="/dashboard/posts" element={<PostPage />} />
         <Route path="/dashboard/posts/add" element={<AddPost />} />
+        <Route path="/dashboard/posts/edit/:id" element={<EditPost />} />
       </Routes>
     </Container>
     </Router>
