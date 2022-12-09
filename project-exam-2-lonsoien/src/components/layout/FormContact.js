@@ -9,9 +9,7 @@ const schema = yup.object().shape({
 });
 
 function FormContact() {
-	const {
-		register,
-		handleSubmit,
+	const { register, handleSubmit,
 		formState: { errors },
 	} = useForm({
 		resolver: yupResolver(schema),
