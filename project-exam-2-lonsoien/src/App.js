@@ -1,6 +1,5 @@
 import './sass/style.scss';
 import Login from './components/login/Login';
-import DashBoard from './components/dashboard/DashBoard';
 import Home from "./components/home/Home"; 
 import Menu from "./components/layout/Menu"; 
 import ContainerTrepanel from './components/products/ContainerTrepanel';
@@ -13,6 +12,10 @@ import Footer from './components/footer/Footer';
 import Container from 'react-bootstrap/esm/Container';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider } from './context/AuthContext'; 
+
+import PostPage from "./components/dashboard/posts/PostPage";
+import AddPost from "./components/dashboard/posts/AddPost";
+import DashBoardPage from './components/dashboard/DashBoardPage';
 
 
 
@@ -32,7 +35,9 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/dashboard" element={<DashBoard />} />
+        <Route path="/dashboard" element={<DashBoardPage />} />
+        <Route path="/dashboard/posts" element={<PostPage />} />
+        <Route path="/dashboard/posts/add" element={<AddPost />} />
       </Routes>
     </Container>
     </Router>
