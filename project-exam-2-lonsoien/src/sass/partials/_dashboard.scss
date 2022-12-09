@@ -1,0 +1,46 @@
+nav {
+	padding: 15px;
+	background: #DFD4C0;
+}
+
+nav a {
+    font-family:'Familjen Grotesk', sans-serif; 
+	color: darkred;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+nav.dashboard {
+	background: #DFD4C0;
+	padding: 8px;
+}
+
+ul.posts {
+	list-style: none;
+	padding: 0;
+}
+
+ul.posts li {
+	background: #ebebeb;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+
+ul.posts a {
+	color: blue;
+	font-weight: bold;
+}
+
+.success {
+    font-family:'Familjen Grotesk', sans-serif; 
+	padding: 1rem;
+	margin: 10px 0;
+	background: #12743B;
+	color: white;
+}
+
+.delete {
+	background: red;
+	color: white;
+	border: none;
+}
