@@ -39,6 +39,8 @@ function App() {
         <Route path="/dashboard/posts" element={<PostPage />} />
         <Route path="/dashboard/posts/add" element={<AddPost />} />
         <Route path="/dashboard/posts/edit/:id" element={<EditPost />} />
+        <Route path="*" element={<Home />} />
+
       </Routes>
     </Container>
     </Router>
