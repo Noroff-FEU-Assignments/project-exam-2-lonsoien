@@ -2,6 +2,7 @@
 import { API_URL } from "../../constants/Api";
 import Container from "react-bootstrap/esm/Container";
 import { useState, useEffect } from "react";
+import Heading from '../../components/layout/Heading'; 
 
 
 function Projects() {
@@ -41,6 +42,7 @@ function Projects() {
 
  return (
         <>
+        <Heading title="-----" />
          {projects.map(function (project) {
           return <div className= "projects-page" key={project.id}>
             <Container>

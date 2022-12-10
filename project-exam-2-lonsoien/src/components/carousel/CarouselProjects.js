@@ -3,11 +3,13 @@ import Carousel from 'react-bootstrap/Carousel';
 import Fafo from '../../images/projects/Fafo.jpg';
 import Kringsjå from '../../images/projects/Kringsjå.jpg'; 
 import Nexans from '../../images/projects/nexans.jpg'; 
+import { Link } from 'react-router-dom'; 
 
 function CarouselProjects() {
     return (
         <>
         <h3>Våre Prosjekter</h3>
+        <Link to={"/projects"}>
         <Carousel>
           <Carousel.Item>
             <img
@@ -44,6 +46,7 @@ function CarouselProjects() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        </Link>
         </>
     );
 }
