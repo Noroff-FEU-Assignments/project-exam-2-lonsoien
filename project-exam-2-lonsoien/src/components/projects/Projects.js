@@ -45,7 +45,6 @@ function Projects() {
           return <div className= "projects-page" key={project.id}>
             <Container>
            <h1> {project.title.rendered} </h1>
-           <img className="d-block w-100" src={project.featured_media} alt="project-foto" /> 
            <p>{project.content.rendered}</p>
            <p className="info-text">{project.date}</p>
            </Container>
@@ -58,3 +57,5 @@ function Projects() {
 
 
 export default Projects;
+
+// <img className="d-block w-100" src={project.featured_media} alt="project-foto" /> 
