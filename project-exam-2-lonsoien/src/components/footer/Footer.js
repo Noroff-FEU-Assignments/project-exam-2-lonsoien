@@ -1,5 +1,9 @@
 import React from 'react'; 
 import FormContact from '../layout/FormContact';
+import {FaEnvelope} from 'react-icons/fa';
+import { FaMobileAlt } from 'react-icons/fa'; 
+import { FaMapPin } from 'react-icons/fa'; 
+
 
 function Footer() {
     return (
@@ -11,9 +15,9 @@ function Footer() {
               <div className="col-md-6 col sm-6" style={{marginTop: "100px"}}>
                 <h4>Kontakt Oss</h4>
                 <ul className="list-unstyled">
-                  <li>(+47) 923 11 461</li>
-                  <li>post@environmentbox.no</li>
-                  <li>Tønsberg</li>
+                  <li><FaMobileAlt/>  (+47) 923 11 461</li>
+                  <li><FaEnvelope/>   post@environmentbox.no</li>
+                  <li><FaMapPin/> Tønsberg</li>
                 </ul>
               </div>
               <div className="col-md-6 col sm-6">
