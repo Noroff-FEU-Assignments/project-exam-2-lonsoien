@@ -1,7 +1,6 @@
 
 import { API_URL } from "../../constants/Api";
-//import Container from "react-bootstrap/esm/Container";
-import Heading from "../layout/Heading";
+import Container from "react-bootstrap/esm/Container";
 import { useState, useEffect } from "react";
 
 
@@ -9,6 +8,7 @@ function Projects() {
  const [projects, setProject] = useState([]);
  const [loading, setLoading] = useState(true);
  const [error, setError] = useState(null);
+
 
  useEffect(function () {
   async function fetchData() {
@@ -41,13 +41,14 @@ function Projects() {
 
  return (
         <>
-        <Heading title="Våre Prosjekter"/>
          {projects.map(function (project) {
           return <div className= "projects-page" key={project.id}>
+            <Container>
            <h1> {project.title.rendered} </h1>
            <img className="d-block w-100" src={project.featured_media} alt="project-foto" /> 
            <p>{project.content.rendered}</p>
-           <p>{project.date}</p>
+           <p className="info-text">{project.date}</p>
+           </Container>
           </div>
             ;
          })}
