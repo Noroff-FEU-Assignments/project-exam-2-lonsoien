@@ -63,6 +63,18 @@ Vi skreddersyr sykkelhotellet etter ditt ønske med bl.a lademuligheter, låsbar
 <p>
   Miljø-hensynsfulle bedrifter gir økt tillit og omdømme.
   </p>
+  <p>
+  Habitatvegger
+  <br></br>
+   Vi kan levere habitatpanel eller kasser som gir beskyttelse og overvintringsmuligheter for bier og humler. Bier og humler er en truet art, og står i fare for å forsvinne i Norge. 
+   Humler er særlig viktige her i nord, det er humlen vi må takke for at vi har blåbær i skogen, at høyfjellsplantene våre blir bestøvet, og at vi har norsk eple-, agurk- og tomatproduksjon. 
+  </p>
+  <p>
+  Gjenbruk
+  <br></br>
+   Gjenbruk betyr at ting som er overflødige eller unødvendige brukes på nytt i stedet for å kastes. 
+   Vi sparer miljøet for bruk av energi, uttak av naturressurser og reduserer utslipp både i produksjon og transport.
+  </p>
   </div>
   </section>
   </>

@@ -62,6 +62,12 @@ Vi skreddersyr sykkelhotellet etter ditt ønske med bl.a lademuligheter, låsbar
 <p>
   Miljø-hensynsfulle bedrifter gir økt tillit og omdømme.
   </p>
+  <p>
+  Vernede bedrifter
+  <br></br>
+   Vi samarbeider med bedrifter som tilbyr arbeidstrening og opplæring. 
+   Med dette som verdigrunnlag utvikler og produserer vi produkter som gjenspeiler kreativitet, kvalitet, mangfold og mestringsglede.
+  </p>
   </div>
   </section>
   </>

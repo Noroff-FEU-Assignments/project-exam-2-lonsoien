@@ -57,6 +57,37 @@ Vi skreddersyr sykkelhotellet etter ditt ønske med bl.a lademuligheter, låsbar
 <p>
   Miljø-hensynsfulle bedrifter gir økt tillit og omdømme.
   </p>
+  <p>Mobil
+    <br></br>
+    Containere er mobile, de leveres med lastebil fra våre lokaler og de plasseres ved hjelp av kranbil. 
+    På denne måten kan både parkeringsplasser og tomter som ellers ikke er i bruk utnyttes. 
+    Containere er fleksible da de kan omplasseres dersom tomten skal brukes til noe annet.
+    </p>
+    <p>
+    Dør/låssystem
+    <br></br>
+    Container leveres med innbruddsikrede ståldører. 
+    Dørlukkere leveres automatisk om ønskelig, og vi har flere låssystemer å velge blant; sylinderlås, kodelås, elektronisk lås m.fl.
+    </p>
+    <p>
+    Innredning
+    <br></br>
+    Container er utrustet med sykkelstativ festet til gulv/vegg slik at sykkelen, om ønskelig, kan låses fast med egen sykkellås. 
+    Kan leveres med ladestasjoner for el-sykler.
+    </p>
+    <p>
+    Grønne tak
+    <br></br>
+    Containere som utstyres med grønne tak av sedum eller viltvoksende gress og blomster, gir en spennende kombinasjon av industri og natur. 
+    Grønne tak i urbane områder kan bli verdifullt for bevaring av bl.a. bier og humler. Foruten biologiske fordeler virker også grønne tak slik at det forsinker avrenning ved ekstremnedbør. 
+    Generelt bidrar grønne tak til å rense luften og øke trivselen i urbane strøk.
+    </p>
+    <p>
+    Vernede bedrifter
+    <br></br>
+    Vi samarbeider med bedrifter som tilbyr arbeidstrening og opplæring. 
+    Med dette som verdigrunnlag utvikler og produserer vi produkter som gjenspeiler kreativitet, kvalitet, mangfold og mestringsglede.
+    </p>
   </div>
   </section>
   </>
