@@ -23,15 +23,16 @@ For the design I chose to have the background white and the client really liked 
 
 I descided to create a card layout for their products on the page, as this looks professional and easy on the eyes. 
 For the fonts, I researched a long time, to find the right combination with the headings H1 to stand out and look professional.
-I really liked the font "Roc Grotesk Wide Medium", and chose the rest of the fonts based to fit the heading. "Poppins Medium" and "Poppins Bold" and "Poppins Regular" I choose to use on the sub-headings and as the content text. I thought it matches also the links and buttons, and didnt feel the need to use any other fonts to the site. 
-As the client really loved the color #DFD4C0 (beige). I then started to create the styletile and prototype with finding the best matching with this color. The client wanted to use beige on almost every aspect of the site as background, forms, buttons, and background color on the product images, but after showing a first test prototype, the client agreed to tone down the usage of the same color, and gave me their trust to create the page as web-friendly as possible. 
+I really liked the font "Roc Grotesk Wide Medium", and chose the rest of the fonts based to fit the heading. "Poppins Medium" and "Poppins Bold" and "Poppins Regular" I choose to use on the sub-headings and as the content text. I thought it matches the links and buttons, and didnt feel the need to use any other fonts to the site. 
+
+The client really loved the color #DFD4C0 (beige). I started to create the styletile and prototype with finding the best matching with this color. The client wanted to use beige on almost every aspect of the site as background, forms, buttons, and background color on the product images, but after showing a first test prototype, the client agreed to tone down the usage of the same color, and gave me their trust to create the page as web-friendly as possible. 
 
 The designing process took a bit longer than expected as the client did change their mind many times at first, but after showing them some of the design they wanted compared with my input and suggestions, they agreed on my final prototype.
 I placed the header image underneath the H1 heading, as I wanted the visitors of the site to focus on the Environmentbox name first. 
 
-The images the client sent did not have the best quality, but I tried to edit my best to make it "web-friendly". In the future I will update the images, as theyr planning a professional photoshoot on their products. So here I didnt spent to much time, as the client only could provide what was given on this project. 
-The content and carousel was placed centred on the pages after the clients wished. The client wanted the products pages and project page to have centered content. On the homepage its the same type of layout, ecxept the product cards with I changed to have a 2 column space, as I thought this looked neater and more professional. A carousel function where used on all the products as this was the neatest way to create a show place for the multiple images for their products. 
-All the content on the project pages is listed in the centre of the page with a title, content and a date of the post. Sadly I didnt get enough time in the end to solve the issues to get the right endpoint of the feaured media from my wordpress cms. The intent was that if wanted, a image also can be added to showpiece the prosject post. 
+The images the client sent did not have the best quality, but I tried to edit my best to make it "web-friendly". In the future I will update the images, as they are planning a professional photoshoot for their products. So I didnt spend to much time editing this, as the client only could provide what was given on this project. 
+The content and carousel was placed centred on the pages after the clients wishes. The client wanted the products pages and project page to have centered content. On the homepage its the same type of layout, ecxept the product cards with I changed to have a 2 column space, as I thought this looked neater and more professional. A carousel function where used on all the products as this was the neatest way to create a show place for the multiple images for their products. 
+All the content on the project pages is listed in the centre of the page with a title, content and a date of the post. Sadly I didnt get enough time in the end to solve the issues to get the right endpoint of the feaured media from my wordpress API. The intent was that if wanted, a image also can be added to showpiece the project post. 
 The login and login form, CORS functionality I decided not to spent to much time to design other on the focus of the simplicity of how to interact with the posts on the dashboard page. 
 
 
@@ -40,8 +41,7 @@ I created a trello board to put up all the different tasks to manage from week 1
 I also created a Ghant chart on my own computer, and made a dairy on what ive done for the day or week, and what was missing or simply issues I had along the way that I had to solve within a due-date. This was more for a personal usage, to have full controll over my work-schedual and timeline. 
 Also to keep a overview of what ive done, what needs improvement, and what issues or bug fixes that still was not solved, or other functinalities or tasks that needed an extra check. 
 
-
-Starting the project exam, I was confliced on to use React or Next, but after creating and finishing the prototype, I ended with using React App for my project. I priotized to build the routes and pages first, and then to start working on the homepage functionality and functions. After getting more confident on how to use React Bootstrap for my CSS, I felt buildning the other pages got less time consuming and less time spending on problem sovling. 
+Starting the project exam, I was conflicted to use React or Next. After creating and finishing the prototype, I ended with using React App for my project. I priotized to build the routes and pages first, and then to start working on the homepage functionality and functions. After getting more confident on how to use React Bootstrap, I felt buildning the other pages got less time consuming and less time spending on problem sovling. 
 
 I did go back to the homepage in the end of the project, to change some of the functionality and split up to different components, as I realized having to much code in one file, is confusing and can be difficult to navigate around when changes needed to be made. 
 I do feel happy about how I organized my components, and spliting up all the functionalities in different files made the coding process more fun and understandable. 
@@ -53,7 +53,7 @@ I chose to build my local wordpress with Local by Flywheel and then used one.com
 I then created the project content as posts in wordpress, to be used with JWT CORS plugin installation. 
 The process of building the post, add, delete posts functionality was the process I have feared the most during the project. I havent been succesful creating this before, so I felt this was fun to get finally to work together. 
 
-The client got really happy about the option of adding Hotjar to their site. They didnt know this is a functionality that they could easily monitor on their own for fre! So they where really exited about this function. 
+The client got really happy about the option of adding Hotjar to their site. They didnt know this is a functionality that they could easily monitor on their own for free! So they where really exited about this function. 
 
 
 ## My experience - what im happy about, what im not happy about
@@ -65,7 +65,7 @@ I am also happy with the way I managed the organization for my files and structu
 I wish I had the time to create my own icons, instead of using the font awsome application. But futher on the project im gonna look into UI libaries and icon choices to develop this to the next level. I am also frustrated that I didnt get to solve the endpoint of my API to get the featured media to display on the project page. This will be a continued task im going to solve for the client.
 
 I am very happy about how I resolved this project with the React App. I felt I maybe didnt have enough skills to work well with this JS framework, when it came to building a big project like this with a real client. My expreience was a huge learning process, but a fun one! 
-This gave me the taste on how to work with a real client and how to work in the industry after this. 
+This gave me the taste on how to work with a real client and how to work in the industry after school. 
 
 I am super exited about the future and want to practice and learn more to become a top frontend deveolper, where there are no limits to what I can build and create. 
 
