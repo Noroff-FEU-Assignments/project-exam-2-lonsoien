@@ -60,3 +60,4 @@ function Projects() {
 export default Projects;
 
 // <img className="d-block w-100" src={project.featured_media} alt="project-foto" /> 
+// [project]._embedded['wp:featuredmedia']['0'].source_url
