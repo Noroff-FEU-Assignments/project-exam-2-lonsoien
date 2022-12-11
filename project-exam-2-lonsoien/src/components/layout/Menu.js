@@ -28,7 +28,7 @@ function Menu() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
           <Nav.Link href="/" className="nav-link"> 
-                HOME
+                HJEM
               </Nav.Link>
             <NavDropdown title="PRODUKTER" id="basic-nav-dropdown">
               <NavDropdown.Item href="/containerfolie">Sykkelcontainer Folie</NavDropdown.Item>

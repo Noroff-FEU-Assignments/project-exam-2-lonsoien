@@ -38,15 +38,9 @@ $theme-colours: (
     text-align: center !important; 
 }
 
-.header {
-    background-image: url("../images/headerimage.png") !important; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px; 
-}
-
 
 // @media (min-width: 768px)
+
 
 
 @import "./partials/typography"; 
