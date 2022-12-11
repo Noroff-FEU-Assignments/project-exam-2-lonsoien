@@ -5,7 +5,7 @@ Environmentbox AS is a company that develops solutions for a better storage for 
 
 ## Functionality the clients wanted
 I started with having a meeting with my clients to get to know what they need and how they want their site to function. 
-They wanted the site to be easy and neat for their customers, and to easy navigate to the products on their site. 
+They wanted the site to be easy and neat for their customers, and easy to navigate to the products on their site. 
 They especially wanted the contact form to be on all pages throughout the site at the footer. 
 They wanted all their products to be listed on their homepage, so when the client enters the home-page, all the products are listed, and then
 each listing direct to their own product detail site.
