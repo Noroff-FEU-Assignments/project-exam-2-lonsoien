@@ -63,4 +63,15 @@ Working with wordpress API, plan design, and functions.
     Password: matheo 
     
    # Summary 
+   
+I found my choice to use a real client for this project was very fun and most of all a big learning experience. 
+
+To work with actual clients compare to a school project is a lot different in a good and bad way. I learned that the clients often dont know maybe what they really want, or that they can quickly change their mind on some aspects. I feel I learned that working with a client will provide unexpected challenges as you have started the proccess. I am glad that the client was happy with my advices and inputs from a frontend developers prespective and experiences. And that they listened to my ideas.
+
+The designing prossess took a much longer time than was given, but the client was happy with the prototype in the end. 
+I planned the process with Trello (kanban board) and shared the work-board with the client so the client could interact. 
+
+For the JWT CORS requirements given in the exam brief I chose Wordpress, as this was preferable with the client. 
+
+The business identity was important for the client to come across as serious, simple, neat and evironment friendly.  
 
