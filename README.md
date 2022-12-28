@@ -8,7 +8,9 @@ View live site [here](https://evironmentbox.netlify.app/)
 Its built on Wordpress API [here](https://project-evironment.no/)
 
 ## Goal
-The client wanted to create a new webpage for their company Enviromentbox AS. 
+The client wanted to create a new webpage for their company Enviromentbox AS. This is a client I chose to work with for my project exam. 
+
+Environmentbox AS is a company that develops solutions for a better storage for bicycles. They design and create different containers and bicycles-hotels that safely stores bicycles for communities, schools or businesses. They are a upcoming business that have had great sucess with their products, and saw the need to develop a new website for their business.
 
 The website had to contain all listed products on their home-page as they have created a QR-Code to their domain that directs to the homepage. 
 
