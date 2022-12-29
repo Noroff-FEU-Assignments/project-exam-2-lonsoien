@@ -73,5 +73,12 @@ I planned the process with Trello (kanban board) and shared the work-board with 
 
 For the JWT CORS requirements given in the exam brief I chose Wordpress, as this was preferable with the client. 
 
-The business identity was important for the client to come across as serious, simple, neat and evironment friendly.  
+The business identity was important for the client to come across as serious, simple, neat and evironment friendly.
+
+I am happy with what I have produced so far. There are room for improvements, and this will be a continued project for the real world client, witch I am very exited about. I feel I have learned a lot during working on this project exam, and encountered a lot of problems that I previous havent solved before. It was a huge learning experience to work with the client, and the importance of communication throghout the project. 
+
+## Acknowledgements/help/inspirations 
+- Fellow students in our student-group, especially @josefine and @vildehys who I have come close along the Frontend Course. 
+- Youtube, (how to mixed videos on problem solving) and channel on React - PedroTech
+- Dribble (inspirational UI Design) 
 
